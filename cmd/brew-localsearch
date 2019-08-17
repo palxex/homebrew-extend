@@ -1,0 +1,2 @@
+brew localsearchformula $1
+brew localsearchcask $1
