@@ -1,2 +1,2 @@
 echo "===Cask:"
-find  /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks -iname \*$1\* |awk -F '/' '{print $10}'|awk -F '.' '{print $1}'
+find  /usr/local/Homebrew/Library/Taps/*/*/Casks -iname \*$1\* |awk -F '/' '{print $10}'|awk -F '.' '{print $1}'
