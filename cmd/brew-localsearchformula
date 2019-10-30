@@ -1,2 +1,3 @@
 echo "===Formula:"
-find /usr/local/Homebrew/Library/Taps/*/*/Formula -iname \*$1\* |awk -F '/' '{print $10}'|awk -F '.' '{print $1}'
+cd `brew --prefix`/Homebrew/Library/Taps
+find */*/Formula -iname \*$1\* |awk -F '/' '{print $4}'|awk -F '.' '{print $1}'
